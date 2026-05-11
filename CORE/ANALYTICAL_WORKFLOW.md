@@ -2,11 +2,20 @@
 
 ## OBJETIVO
 
-Este documento define o fluxo analítico padrão utilizado pela DATAFORGE
-ANALYTICS.
+Este documento define o fluxo analítico padrão da DATAFORGE ANALYTICS.
 
-Nem todas as etapas serão obrigatórias em todos os projetos, mas o fluxo
-representa a metodologia principal da empresa.
+O workflow representa metodologia operacional investigativa utilizada durante os
+projetos.
+
+As etapas existem para desenvolver:
+
+- rigor técnico
+- pensamento analítico
+- clareza investigativa
+- maturidade profissional
+- tomada de decisão baseada em evidências
+
+Etapas fundamentais não devem ser ignoradas apenas porque parecem simples.
 
 ---
 
@@ -15,17 +24,19 @@ representa a metodologia principal da empresa.
 Objetivos:
 
 - entender o problema
-- entender o contexto
+- entender contexto operacional
 - identificar stakeholders
-- identificar impacto
+- entender impacto esperado
+- definir objetivos investigativos
 - definir métricas de sucesso
 
 Perguntas importantes:
 
-- Qual problema queremos resolver?
+- Qual problema estamos tentando resolver?
 - Qual decisão será tomada?
 - Qual impacto esperado?
-- Qual risco associado?
+- Quem será impactado?
+- Quais riscos existem?
 
 ---
 
@@ -33,12 +44,13 @@ Perguntas importantes:
 
 Objetivos:
 
-- conhecer estrutura dos dados
-- identificar padrões
+- entender estrutura dos dados
 - investigar qualidade
 - detectar inconsistências
+- encontrar padrões iniciais
+- identificar limitações
 
-Análises mínimas:
+Análises mínimas esperadas:
 
 - shape
 - tipos de dados
@@ -46,7 +58,10 @@ Análises mínimas:
 - duplicados
 - cardinalidade
 - distribuições
-- correlações
+- inconsistências
+- correlações iniciais
+
+Nenhuma coluna deve ser assumida como confiável sem investigação.
 
 ---
 
@@ -55,11 +70,18 @@ Análises mínimas:
 Objetivos:
 
 - corrigir inconsistências
-- tratar dados inválidos
+- tratar valores inválidos
 - padronizar formatos
 - reduzir ruído
+- melhorar qualidade operacional dos dados
 
-Toda limpeza deve possuir justificativa.
+Toda limpeza deve possuir:
+
+- justificativa
+- impacto esperado
+- coerência metodológica
+
+Decisões inadequadas de limpeza podem comprometer análises futuras.
 
 ---
 
@@ -67,12 +89,18 @@ Toda limpeza deve possuir justificativa.
 
 Objetivos:
 
-- encontrar padrões
+- investigar comportamento dos dados
 - validar hipóteses
+- identificar padrões
+- detectar anomalias
 - gerar insights
-- identificar comportamento
+- aprofundar entendimento operacional
 
-Todo gráfico deve possuir interpretação textual.
+Toda análise deve possuir interpretação.
+
+Todo gráfico deve possuir contexto analítico.
+
+Visualizações sem interpretação não devem ser consideradas suficientes.
 
 ---
 
@@ -81,9 +109,12 @@ Todo gráfico deve possuir interpretação textual.
 Objetivos:
 
 - melhorar representação dos dados
-- aumentar capacidade preditiva
-- reduzir ruído
 - criar variáveis relevantes
+- aumentar capacidade explicativa
+- reduzir ruído
+- estruturar melhor informação disponível
+
+Toda feature criada deve possuir justificativa operacional ou analítica.
 
 ---
 
@@ -92,11 +123,16 @@ Objetivos:
 Objetivos:
 
 - criar baseline
-- comparar algoritmos
-- validar performance
-- justificar escolhas
+- comparar abordagens
+- validar comportamento dos modelos
+- investigar generalização
+- justificar decisões metodológicas
 
 Nenhum modelo deve existir sem baseline inicial.
+
+Modelos complexos não devem ser priorizados automaticamente.
+
+Interpretabilidade e robustez possuem importância operacional.
 
 ---
 
@@ -104,12 +140,15 @@ Nenhum modelo deve existir sem baseline inicial.
 
 Objetivos:
 
-- validar generalização
+- validar resultados
 - investigar erros
 - analisar métricas
-- medir impacto real
+- entender limitações
+- medir impacto potencial
 
 Nenhuma métrica deve ser analisada isoladamente.
+
+O contexto operacional deve influenciar interpretação das métricas.
 
 ---
 
@@ -121,6 +160,7 @@ Objetivos:
 - explicar decisões
 - apresentar recomendações
 - traduzir impacto técnico
+- defender interpretações
 
 A comunicação deve ser:
 
@@ -131,7 +171,34 @@ A comunicação deve ser:
 
 ---
 
-## PRINCÍPIOS IMPORTANTES
+## FLEXIBILIDADE DO WORKFLOW
+
+Nem todos os projetos devem obrigatoriamente terminar em:
+
+- machine learning
+- deep learning
+- inteligência artificial
+
+Dependendo do contexto o projeto pode focar mais em:
+
+- investigação analítica
+- estatística
+- dashboards
+- segmentação
+- inferência
+- análise operacional
+- storytelling analítico
+
+O direcionamento deve ser definido conforme:
+
+- contexto
+- objetivos
+- limitações
+- descobertas realizadas
+
+---
+
+## PRINCÍPIOS OPERACIONAIS
 
 - dados nunca devem ser assumidos como confiáveis
 - correlação não implica causalidade
@@ -140,3 +207,5 @@ A comunicação deve ser:
 - organização é obrigatória
 - decisões devem ser justificadas
 - conclusões precisam de evidências
+- rigor investigativo é obrigatório
+- etapas fundamentais não devem ser ignoradas

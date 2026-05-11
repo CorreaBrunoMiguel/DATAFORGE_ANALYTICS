@@ -37,3 +37,30 @@ build/
 
 # Logs
 *.log
+
+# Data files (optional strategy)
+# data/interim/
+# data/processed/
+
+# Jupyter autosaves
+*.ipynb_checkpoints
+
+# Mac/Linux temp
+*.swp
+*.swo
+
+# Parquet
+*.parquet
+
+# Feather
+*.feather
+
+# Local configs
+.python-version
+
+# ML artifacts
+mlruns/
+wandb/
+
+# Notebook exports
+*.nbconvert.ipynb
