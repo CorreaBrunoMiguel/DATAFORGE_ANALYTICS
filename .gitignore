@@ -64,3 +64,9 @@ wandb/
 
 # Notebook exports
 *.nbconvert.ipynb
+
+# Anaconda local state
+anaconda_projects/
+
+# Python cache
+dataforge/__pycache__/
