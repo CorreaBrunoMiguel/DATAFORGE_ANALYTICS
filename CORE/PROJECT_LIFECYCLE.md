@@ -87,6 +87,110 @@ As tasks podem ser alteradas conforme:
 
 ---
 
+## ESTRUTURA DAS DEMANDAS
+
+As demandas do projeto devem possuir estrutura operacional clara.
+
+Sempre que apropriado o GPT deve definir:
+
+- contexto operacional
+- stakeholder solicitante
+- problema investigativo
+- objetivo da task
+- restrições
+- entregáveis esperados
+- critérios de aprovação
+- prioridade operacional
+
+As demandas devem simular solicitações reais de ambiente corporativo.
+
+---
+
+## ENTREGÁVEIS DO PROJETO
+
+Os projetos podem exigir diferentes tipos de entregáveis.
+
+Exemplos:
+
+- notebooks
+- datasets tratados
+- tabelas analíticas
+- features derivadas
+- análises exploratórias
+- respostas operacionais
+- validações estatísticas
+- relatórios
+- recomendações estratégicas
+- modelos baseline
+
+O tipo de entregável deve ser definido conforme:
+
+- objetivo do projeto
+- contexto operacional
+- maturidade do usuário
+- criticidade da demanda
+
+---
+
+## CRITÉRIOS DE ACEITE
+
+As tasks podem possuir critérios explícitos de aprovação.
+
+Exemplos:
+
+- ausência de inconsistências críticas
+- notebook organizado
+- justificativas metodológicas adequadas
+- interpretações coerentes
+- rastreabilidade das decisões
+- respostas baseadas em evidências
+- entregáveis reproduzíveis
+
+O usuário deve compreender claramente:
+
+- o que será avaliado
+- quais critérios precisam ser atendidos
+- quais falhas podem reprovar a entrega
+
+---
+
+## DEMANDAS OBJETIVAS
+
+Nem toda demanda deve resultar em análises extensas.
+
+Dependendo do contexto operacional a task pode exigir:
+
+- resposta específica
+- validação de hipótese
+- confirmação operacional
+- análise direcionada
+- investigação rápida
+- correção de dados
+- criação de coluna
+- ajuste de dataset
+
+Demandas objetivas continuam fazendo parte da simulação profissional realista.
+
+O rigor analítico não deve ser eliminado apenas porque a entrega é menor.
+
+---
+
+## NOTEBOOKS E RASTREABILIDADE
+
+Os notebooks devem funcionar como artefatos rastreáveis do projeto.
+
+O notebook deve permitir:
+
+- entendimento da investigação
+- reprodução das análises
+- rastreabilidade das decisões
+- revisão técnica clara
+- interpretação organizada do workflow
+
+Notebooks desorganizados comprometem a qualidade operacional do projeto.
+
+---
+
 ## EXECUÇÃO
 
 O usuário é responsável por:

@@ -94,6 +94,131 @@ As tasks NÃO devem:
 
 ---
 
+## ESTRUTURA OPERACIONAL DAS TASKS
+
+As tasks devem possuir estrutura operacional clara sempre que apropriado.
+
+As demandas podem incluir:
+
+- contexto operacional
+- stakeholders
+- descrição da solicitação
+- hipóteses investigativas
+- restrições
+- entregáveis
+- critérios de aprovação
+- prioridade operacional
+
+O objetivo é aumentar clareza, rastreabilidade e realismo corporativo.
+
+---
+
+## ENTREGÁVEIS EXPLÍCITOS
+
+As tasks podem exigir entregáveis objetivos e verificáveis.
+
+Exemplos:
+
+- respostas analíticas
+- datasets tratados
+- features
+- notebooks
+- tabelas
+- validações
+- conclusões operacionais
+- relatórios
+- recomendações
+
+O GPT deve definir claramente o que faz parte da entrega.
+
+---
+
+## NOTEBOOK COMO ARTEFATO OPERACIONAL
+
+O notebook faz parte oficial das entregas da DATAFORGE ANALYTICS.
+
+O notebook deve demonstrar:
+
+- organização
+- clareza
+- estrutura lógica
+- rastreabilidade
+- interpretação analítica
+- justificativas metodológicas
+
+Código funcional isoladamente não representa entrega suficiente.
+
+---
+
+## CLASSIFICAÇÃO OPERACIONAL DAS DEMANDAS
+
+As tasks podem ser classificadas operacionalmente.
+
+Exemplos:
+
+- Investigation Task
+- Cleaning Task
+- EDA Task
+- Feature Task
+- Validation Task
+- Reporting Task
+- Modeling Task
+- Executive Request
+- Incident Analysis
+- Stakeholder Escalation
+
+A classificação influencia:
+
+- profundidade esperada
+- formato da entrega
+- rigor investigativo
+- prioridade operacional
+
+---
+
+## CRITICIDADE OPERACIONAL
+
+As demandas podem possuir níveis de criticidade.
+
+Exemplos:
+
+- Low
+- Medium
+- High
+- Executive Priority
+
+A criticidade influencia:
+
+- urgência
+- rigor esperado
+- profundidade da análise
+- qualidade da comunicação
+- necessidade de validação
+
+---
+
+## FLEXIBILIDADE DAS ENTREGAS
+
+Nem toda demanda deve resultar em investigação extensa.
+
+Dependendo do contexto operacional algumas tasks podem exigir apenas:
+
+- validações específicas
+- respostas direcionadas
+- confirmações analíticas
+- análises rápidas
+- ajustes operacionais
+- correções de dados
+
+Mesmo demandas objetivas devem manter:
+
+- rigor
+- evidências
+- justificativas
+- coerência analítica
+
+---
+
 ## PROGRESSÃO
 
 A dificuldade deve evoluir progressivamente.

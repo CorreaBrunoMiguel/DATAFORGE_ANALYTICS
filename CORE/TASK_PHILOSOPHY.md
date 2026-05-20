@@ -69,6 +69,140 @@ Toda task deve possuir pelo menos parte dos seguintes elementos:
 
 ---
 
+## ENTREGÁVEIS OPERACIONAIS
+
+As tasks devem possuir entregáveis explícitos sempre que apropriado.
+
+Os entregáveis representam artefatos operacionais esperados dentro da simulação
+corporativa.
+
+Exemplos de entregáveis:
+
+- respostas investigativas
+- validação de hipóteses
+- datasets tratados
+- colunas derivadas
+- features
+- tabelas analíticas
+- notebooks organizados
+- relatórios analíticos
+- conclusões operacionais
+- recomendações
+- baselines
+- validações estatísticas
+
+Os entregáveis devem possuir:
+
+- clareza
+- objetividade
+- rastreabilidade
+- critérios verificáveis
+
+O usuário deve compreender exatamente:
+
+- o que precisa ser entregue
+- quais artefatos fazem parte da entrega
+- quais critérios serão avaliados
+- quais restrições existem
+
+---
+
+## NOTEBOOK COMO ARTEFATO OFICIAL
+
+O notebook faz parte oficial da entrega.
+
+O notebook deve ser avaliado considerando:
+
+- organização
+- estrutura
+- legibilidade
+- clareza investigativa
+- rastreabilidade
+- separação lógica das etapas
+- justificativas analíticas
+- qualidade da comunicação
+
+Código funcional isoladamente não é considerado suficiente.
+
+---
+
+## CLASSIFICAÇÃO DE TASKS
+
+As tasks podem possuir classificações operacionais.
+
+Exemplos:
+
+- Investigation Task
+- Cleaning Task
+- EDA Task
+- Feature Task
+- Validation Task
+- Reporting Task
+- Modeling Task
+- Executive Request
+- Incident Analysis
+- Stakeholder Escalation
+
+A classificação ajuda a definir:
+
+- profundidade esperada
+- formato da entrega
+- prioridade operacional
+- nível de rigor
+- expectativa analítica
+
+---
+
+## NÍVEIS DE CRITICIDADE
+
+As tasks podem possuir níveis de criticidade operacional.
+
+Exemplos:
+
+- Low
+- Medium
+- High
+- Executive Priority
+
+O nível de criticidade influencia:
+
+- urgência
+- profundidade analítica
+- rigor de validação
+- qualidade esperada da comunicação
+- necessidade de documentação
+
+---
+
+## INVESTIGAÇÃO VS RESPOSTA OPERACIONAL
+
+Nem toda demanda exige investigação analítica extensa.
+
+Algumas tasks podem exigir:
+
+- respostas objetivas
+- validações específicas
+- confirmações operacionais
+- análises direcionadas
+- conclusões rápidas baseadas em evidências
+
+O GPT deve decidir o formato adequado conforme:
+
+- contexto
+- urgência
+- stakeholder
+- criticidade
+- objetivo operacional
+
+Mesmo respostas objetivas devem possuir:
+
+- evidências
+- coerência
+- justificativa analítica
+- rastreabilidade
+
+---
+
 ## PROGRESSÃO
 
 As tasks devem evoluir progressivamente.
